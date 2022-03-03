@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+   }
+   
+   .container {
+       background-color:#FF5470;
+       width: 1000px;
+       margin: 0 auto;
+   }
+   
+   .productsList {
+   background-color: lightseagreen;    
+   }
+   
+   .productsList .product {
+      background-color: lightgreen;
+      margin: 10px;
+      border: 1px solid #CADFE4;
+   }
+   
+   .productsList .product::after {
+       display: table;
+       content: " ";
+       clear: both;
+   }
+   
+   .productsList .product .productImage{
+       float: left;
+       width: 250px;
+       height: 250px;
+       background:#FDFF00;
+   }
+   img{
+       width:250px;
+       height: 250px;
+
+   }
+   
+   .productsList .product .productInfo {
+       float: left;
+   }

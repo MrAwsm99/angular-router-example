@@ -1,0 +1,11 @@
+<p>cart works!</p>
+
+<div class="container" id="cart">
+    <h1>List of Items in Cart</h1>
+    <ul>
+      <li class="cart-items" *ngFor="let detail of itemsInCart">
+        ID : {{detail.id}}<br>
+        Job Title : {{detail.firstName}}<br>
+      </li>
+    </ul>
+  </div>

@@ -1,0 +1,15 @@
+<p>products works!</p>
+<div class="container">
+    <h2>Products list below</h2>
+    <div class="productsList" *ngFor="let d of dtdata">
+        <br />
+        <div class="product">
+            <div class="productImage"><img src={{d.image}}></div>
+            ID: {{d.id}}<br>
+            Description {{d.firstName}}
+            <br>
+            <button class="btn btn-primary" (click)="addItem(d)">add to cart</button>
+        </div>
+        <br/>
+    </div>
+</div>
